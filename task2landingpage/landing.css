@@ -1,0 +1,332 @@
+body,h2{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+.cafe{
+    background: url('/task2landingpage/coff.jpeg');
+    background-size: cover;
+    background-position: 20%;
+}
+.cafe h2,nav{
+    display: flex;
+    font-size: 20px;
+    color: orange;
+    font-family:cursive;
+}
+nav{
+    display:flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    margin-block-end: 2%;
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin:20px 30px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color:orange;
+    font-weight:bold;
+}
+nav ul li a:hover{
+    color: orange; 
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.title{
+    margin-left: 6%;
+    margin-top: 10%;
+}
+.title h1{
+    color:white;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+span{
+    color: orange;
+    font-family: cursive;
+}
+.tags{
+    margin-left: 8%;
+    margin-top: 3%;
+    color: white;
+    font-weight: bold;
+}
+.call{
+    margin-left:9%;
+    margin-top: 3%;
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+button{
+    margin-top: 3%;
+    margin-left: 12%;
+    margin-bottom: 20%;
+    text-align: center;
+    background-color:orange;
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+    padding: 15px 25px;
+    border-radius: 28px;
+    border: 2px solid black;
+    box-shadow: 2px;
+    font-weight: bolder;
+}
+.learn button{
+    margin-left: 25%;
+    margin-bottom: 8%;
+    border-radius: 2%;
+    padding: 10px 20px;
+}
+
+button:hover{
+    color: green;
+}
+nav ul li a:hover{
+    color: green;
+}
+.about{
+
+    background-color: antiquewhite;
+    
+    
+}
+.about h2{
+    text-align: center;
+    margin-top: 2%;
+    font-family: cursive;
+    font-size: 1.8em;
+    color: green;
+}
+.about h3{
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    margin-top: 7%;
+    font-size: 1.5em;
+}
+.about p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    margin-top: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;   
+}
+.about img{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 4%;
+}
+.categories img{
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 8%;
+}
+.categories img:hover{
+    transform: translate(0,-10%);
+}
+.dish img:hover{
+    transform: translate(0,-10%);
+}
+.top h2{
+    text-align: center;
+    margin-top: 2%;
+    font-family: cursive;
+    font-size: 1.8em;
+    color: green;
+}
+.sign h2{
+    text-align: center;
+    margin-top: 2%;
+    font-family: cursive;
+    font-size: 1.8em;
+    color: green;
+
+}
+.dish img{
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 8%;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    background-color:#6f4e37;
+    color: black;
+    margin-top: 2%;
+}
+#menuheading,#locheading{
+    background-color: burlywood;
+    font-size: 2.5em;
+    color: green;
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    margin-top: 2%;
+}
+.menu th{
+    color: orange;
+    font-size: 1.8em;
+    font-family: cursive;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+table{
+    width: 100%;
+    padding: 1em;
+}
+.menu tr{
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: initial;
+}
+.menu td{
+    font-style: initial;
+}
+.locations{
+    background-color: #6f4e37;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: black;
+    padding: 1em;
+    margin-top: 2%;
+}
+.annanagar h2{
+    color: orange;
+    font-size: 1.8em;
+    font-family: cursive;
+}
+.kalavasal h2{
+    color: orange;
+    font-size: 1.8em;
+    font-family: cursive;
+}
+.kknagar h2{
+    color: orange;
+    font-size: 1.8em;
+    font-family: cursive;
+}
+.annanagar address{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.kalavasal address{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.kknagar address{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-form {
+    padding: 40px 0;
+    margin: 0 10px;
+}
+ 
+.form-container {
+    max-width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.contact {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+.contact img {
+    max-width: 100%;
+    height: auto;
+}
+ 
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+ 
+.form-container label {
+    display:block;
+    font-weight: bold;
+}
+.form-container input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+.submit-button {
+    padding: 10px 20px;
+    background-color: #0dac30;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.contact-info {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+ 
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: transparent;
+    border: .2rem solid black;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: orange;
+    margin: 1rem 1.2rem .2rem 0;
+    transition: .5s ease;
+    transform: scale(1.02);
+}
+.social-media a:hover{
+    background: orange;
+    color: black;
+    box-shadow: 0 0 1rem solid aqua;
+
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+ 
+
+
+
